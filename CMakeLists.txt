@@ -3,4 +3,9 @@ project(LeetCodeSandbox)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Template Template.cpp)
+file(GLOB SRCS *.cpp)
+foreach (file ${SRCS})
+    get_filename_component(file ${file} NAME)
+    string(REPLACE ".cpp" "" name ${file})
+    add_executable(${name} ${file})
+endforeach ()
