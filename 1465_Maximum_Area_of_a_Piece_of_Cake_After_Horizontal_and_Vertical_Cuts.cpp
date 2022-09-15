@@ -65,28 +65,28 @@ int main() {
     horizontalCuts = {1, 2, 4};
     verticalCuts = {1, 3};
     // Output: 4
-    std::cout << sol.maxArea(h, w, horizontalCuts, verticalCuts) << std::endl;
+    cout << sol.maxArea(h, w, horizontalCuts, verticalCuts) << endl;
 
     h = 5;
     w = 4;
     horizontalCuts = {3, 1};
     verticalCuts = {1};
     // Output: 6
-    std::cout << sol.maxArea(h, w, horizontalCuts, verticalCuts) << std::endl;
+    cout << sol.maxArea(h, w, horizontalCuts, verticalCuts) << endl;
 
     h = 5;
     w = 4;
     horizontalCuts = {3};
     verticalCuts = {3};
     // Output: 9
-    std::cout << sol.maxArea(h, w, horizontalCuts, verticalCuts) << std::endl;
+    cout << sol.maxArea(h, w, horizontalCuts, verticalCuts) << endl;
 
     h = 1000000000;
     w = 1000000000;
     horizontalCuts = {2};
     verticalCuts = {2};
     // Output: 81
-    std::cout << sol.maxArea(h, w, horizontalCuts, verticalCuts) << std::endl;
+    cout << sol.maxArea(h, w, horizontalCuts, verticalCuts) << endl;
 
     return 0;
 }

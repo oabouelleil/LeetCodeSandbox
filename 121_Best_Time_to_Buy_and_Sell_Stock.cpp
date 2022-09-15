@@ -35,11 +35,11 @@ int main() {
 
     // 5
     prices = {7, 1, 5, 3, 6, 4};
-    std::cout << sol.maxProfit(prices) << std::endl;
+    cout << sol.maxProfit(prices) << endl;
 
     // 0
     prices = {7, 6, 4, 3, 1};
-    std::cout << sol.maxProfit(prices) << std::endl;
+    cout << sol.maxProfit(prices) << endl;
 
     return 0;
 }

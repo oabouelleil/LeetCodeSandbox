@@ -45,19 +45,19 @@ int main() {
     vector<int> nums;
 
     nums = {3,4,5,1,2};
-    std::cout << sol.findMin(nums) << std::endl;
+    cout << sol.findMin(nums) << endl;
 
     nums = {4,5,6,7,0,1,2};
-    std::cout << sol.findMin(nums) << std::endl;
+    cout << sol.findMin(nums) << endl;
 
     nums = {11,13,15,17};
-    std::cout << sol.findMin(nums) << std::endl;
+    cout << sol.findMin(nums) << endl;
 
     nums = {1};
-    std::cout << sol.findMin(nums) << std::endl;
+    cout << sol.findMin(nums) << endl;
 
     nums = {1,2};
-    std::cout << sol.findMin(nums) << std::endl;
+    cout << sol.findMin(nums) << endl;
 
     return 0;
 }
