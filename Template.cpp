@@ -35,7 +35,7 @@ public:
 int main() {
     Solution sol;
 
-    std::cout << sol.function() << std::endl;
+    cout << sol.function() << endl;
 
     return 0;
 }
