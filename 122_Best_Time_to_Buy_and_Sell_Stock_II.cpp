@@ -1,5 +1,4 @@
-#include <iostream>
-#include <vector>
+#include "LeetCodeIncludes.h"
 
 using namespace std;
 

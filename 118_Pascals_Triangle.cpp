@@ -1,5 +1,4 @@
-#include <iostream>
-#include <vector>
+#include "LeetCodeIncludes.h"
 
 using namespace std;
 
@@ -13,7 +12,7 @@ using namespace std;
  * @note Easy way to understand complexity of this
  *       is that it's a triangle, so half a n*n square
  *       so 0.5n^2, O(n^2)
- */s
+ */
 #if RUN_SOLUTION == 0
 
 class Solution {
