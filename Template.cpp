@@ -1,4 +1,4 @@
-#include <iostream>
+#include "LeetCodeIncludes.h"
 
 using namespace std;
 
@@ -9,13 +9,15 @@ using namespace std;
  * Time Complexity: O(1)
  * Space Complexity: O(1)
  */
-#if RUN_SOLUTION==0
+#if RUN_SOLUTION == 0
+
 class Solution {
 public:
     int function() {
         return 0;
     }
 };
+
 #endif
 
 /**
@@ -23,7 +25,7 @@ public:
  * Time Complexity: O(1)
  * Space Complexity: O(1)
  */
-#if RUN_SOLUTION==1
+#if RUN_SOLUTION == 1
 class Solution {
 public:
     int function() {
