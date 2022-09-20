@@ -1,7 +1,5 @@
 #include "LeetCodeIncludes.h"
 
-using namespace std;
-
 #define RUN_SOLUTION 0
 
 /**

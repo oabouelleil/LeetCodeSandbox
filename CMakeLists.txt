@@ -3,6 +3,8 @@ project(LeetCodeSandbox)
 
 set(CMAKE_CXX_STANDARD 17)
 
+include_directories(. util)
+
 file(GLOB SRCS *.cpp)
 foreach (file ${SRCS})
     get_filename_component(file ${file} NAME)
