@@ -1,7 +1,7 @@
 #ifndef LCPRINT
 #define LCPRINT
 
-#include "LeetCodeIncludes.h"
+#include "LCIncludes.h"
 
 template<typename T>
 void LCPrint(const vector<vector<T>> &v) {

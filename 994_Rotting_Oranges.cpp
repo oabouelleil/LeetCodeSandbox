@@ -1,4 +1,4 @@
-#include "LeetCodeIncludes.h"
+#include "LCIncludes.h"
 
 #define RUN_SOLUTION 1
 
