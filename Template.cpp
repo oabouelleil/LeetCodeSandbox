@@ -1,5 +1,5 @@
-#include "LCUtils/LCIncludes.h"
-#include "LCUtils/LCUtils.h"
+#include "LCUtils/Includes/LCIncludes.h"
+#include "LCUtils/Includes/LCUtils.h"
 
 #define RUN_SOLUTION 0
 
@@ -35,8 +35,11 @@ public:
 
 int main() {
     Solution sol;
+    int a;
 
-    cout << sol.function() << endl;
+    a = 1;
+    LC::print("Parameter 1: ", a);
+    LC::print("Solution", sol.function());
 
     return 0;
 }
